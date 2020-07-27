@@ -15,7 +15,7 @@ specification in Golang.}
 %global godocs          examples README.md
 
 Name:           %{goname}
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Go net/http configurable handler to handle CORS requests
 
 License:        MIT
@@ -54,6 +54,9 @@ BuildRequires:  golang(github.com/zenazn/goji)
 %gopkgfiles
 
 %changelog
+* Mon Jul 27 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.6.0-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Wed Jan 29 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.6.0-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
