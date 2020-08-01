@@ -3,7 +3,7 @@
 
 # https://github.com/rs/cors
 %global goipath         github.com/rs/cors
-Version:                1.6.0
+Version:                1.7.0
 
 %gometa
 
@@ -54,6 +54,9 @@ BuildRequires:  golang(github.com/zenazn/goji)
 %gopkgfiles
 
 %changelog
+* Sat Aug 01 23:22:46 CEST 2020 Robert-André Mauchin <zebob.m@gmail.com> - 1.7.0-1
+- Update to 1.7.0
+
 * Mon Jul 27 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.6.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
 
