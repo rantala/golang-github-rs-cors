@@ -22,18 +22,7 @@ License:        MIT
 URL:            %{gourl}
 Source0:        %{gosource}
 
-BuildRequires:  golang(github.com/codegangsta/negroni)
 BuildRequires:  golang(github.com/gin-gonic/gin)
-BuildRequires:  golang(github.com/go-chi/chi)
-BuildRequires:  golang(github.com/go-martini/martini)
-# Only in examples and with lots of cyclic deps
-# BuildRequires:  golang(github.com/gobuffalo/buffalo)
-# BuildRequires:  golang(github.com/gobuffalo/buffalo/render)
-BuildRequires:  golang(github.com/gorilla/mux)
-BuildRequires:  golang(github.com/julienschmidt/httprouter)
-BuildRequires:  golang(github.com/justinas/alice)
-BuildRequires:  golang(github.com/martini-contrib/render)
-BuildRequires:  golang(github.com/zenazn/goji)
 
 %description
 %{common_description}
